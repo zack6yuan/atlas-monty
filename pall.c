@@ -13,7 +13,7 @@ void pall(stack_t **stack, unsigned int line_number)
 
         while (node != NULL)
         {
-                printf("&d\n", node->n); /*print val of node, newline*/
+                printf("%d\n", node->n); /*print val of node, newline*/
                 node = node->next; /*move to the next node*/
         }
 }
