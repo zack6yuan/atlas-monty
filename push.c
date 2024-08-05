@@ -5,9 +5,11 @@
  * @line_number: the current line in the file
  * Return: void
 */
-void push(stack_t **stack, unsigned int line_number, int n)
+void push(stack_t **stack, unsigned int line_number)
 {
-        stack_t *node = malloc(sizeof(stack_t));
+        stack_t *node;
+
+        node = malloc(sizeof(stack_t));
 
         (void)line_number; /*void because unused*/
 
