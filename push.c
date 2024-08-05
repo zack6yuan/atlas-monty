@@ -5,7 +5,7 @@
  * @line_number: the current line in the file
  * Return: void
 */
-void push(stack_t **stack, unsigned int line_number)
+void push(stack_t **stack, unsigned int line_number, int n)
 {
         stack_t *node;
 
