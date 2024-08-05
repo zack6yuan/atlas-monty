@@ -9,7 +9,7 @@ void push(stack_t **stack, unsigned int line_number, int n)
 {
         stack_t *node = malloc(sizeof(stack_t));
 
-        void(line_number); /*void because unused*/
+        (void)line_number; /*void because unused*/
 
         if (!node) /*checks if malloc failed*/
         {
