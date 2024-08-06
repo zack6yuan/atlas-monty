@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
         unsigned int line_number = 0; /*current line number*/
         char *arg = NULL; /*stores opcode args*/
         char *line_len = 0; /*stores lines read*/
+        char *opcode;
         stack_t *stack = NULL; /*ptr to head of stack*/
         ssize_t read; /*used with getline function*/
 
