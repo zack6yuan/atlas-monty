@@ -10,10 +10,10 @@ int main(int argc, char *argv[])
         FILE *file; /*pointer to the file*/
         unsigned int line_number = 0; /*current line number*/
         char *arg = NULL; /*stores opcode args*/
-        size_t line_len = 0; /*stores lines read*/
         char *opcode;
-        stack_t *stack = NULL; /*ptr to head of stack*/
+        size_t line_len = 0; /*stores lines read*/
         ssize_t read; /*used with getline function*/
+        stack_t *stack = NULL; /*ptr to head of stack*/
 
         if (argc != 2) /*checks if number or arguments != 2*/
         {
