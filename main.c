@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
         FILE *file; /*pointer to the file*/
         unsigned int line_number = 0; /*current line number*/
         char *arg = NULL; /*stores opcode args*/
-        char *line_len = 0; /*stores lines read*/
+        size_t line_len = 0; /*stores lines read*/
         char *opcode;
         stack_t *stack = NULL; /*ptr to head of stack*/
         ssize_t read; /*used with getline function*/
